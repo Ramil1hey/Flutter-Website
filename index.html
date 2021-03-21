@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Flutter - beautiful website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bar__row_parent">
+      <nav id="barRow" class="bar__row">
+        <div>
+          <span id="barBurger" class="bar__burger">
+            <span class="bar__burger__span"></span>
+          </span>
+          <a target="_Blank" href="https://flutter.dev/">
+            <img class="logo__img" src="img/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="right__bar">
+        </a>
+
+          <a class="docs__link" target="_Blank" href="https://flutter.dev/docs"
+            >Docs</a
+          >
+          <a
+            class="showcase__link"
+            target="_Blank"
+            href="https://flutter.dev/showcase"
+            >Showcase</a
+          >
+          <a
+            class="community__link"
+            target="_Blank"
+            href="https://flutter.dev/community"
+            >Community</a
+          >
+          <img id="searchIcon" class="search__img" src="img/search.webp" alt="" />
+          <form action="https://flutter.dev/search?q=">
+            <input id="inputSearch" class="input__search" type="search" placeholder="Search" />
+          </form>
+          <a target="_Blank" href="https://twitter.com">
+            <img class="twitter__img" src="img/twitter.png" alt="" />
+          </a>
+          <a target="_Blank" href="https://youtube.com">
+            <img class="youtube__img" src="img/youtube.png" alt="" />
+          </a>
+          <a target="_Blank" href="https://github.com">
+            <img class="github__img" src="img/github.png" alt="" />
+          </a>
+          <target
+            target="_Blank"
+            href="https://flutter.dev/docs/get-started/install"
+          >
+            <button class="btn__getStarted" id="btnGetStarted">
+              Get started
+            </button>
+          </target>
+        </div>
+      </nav>
+    </div>
+    <div id="adFlutter2" class="ad__Flutter2">
+      <a
+        href="https://medium.com/flutter/whats-new-in-flutter-2-0-fe8e95ecc65"
+        class="flutterIsHere__link"
+      >
+        Flutter 2 is here!
+      </a>
+      <span class="helpImprove">
+        Help improve Flutter! Take our
+        <a
+          class="q1_survey__link"
+          target="_Blank"
+          href="https://google.qualtrics.com/jfe/form/SV_eKYon5R5FfrS38G?Source=Website"
+        >
+          Q1 survey
+        </a>
+      </span>
+    </div>
+    <div class="container">
+      <div class="img__content">
+        <img class="img__content__img1" src="img/for_phone_img1.png" alt="" />
+        <img class="phone__img" src="img/phone.png" alt="" />
+        <img class="img__content__img2" src="img/for_phone_img2.png" alt="" />
+        <img class="img__content__img3" src="img/for_phone_img3.png" alt="" />
+        <span class="img__content__text">
+          <span class="img__content__subtext1">Create</span> faster
+          <span class="img__content__subtext2">apps</span>
+        </span>
+      </div>
+    </div>
+    <div class="made">
+      <div class="container style">
+        <div class="made__column">
+          <div class="made__text__row">
+            <span class="made__span1">Made by</span>
+            <span class="made__svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="74.66" height="24">
+                <path
+                  fill="#4285F4"
+                  d="M9.44 18.62C4.31 18.62 0 14.44 0 9.31 0 4.18 4.31 0 9.44 0c2.84 0 4.86 1.11 6.38 2.57l-1.79 1.79c-1.09-1.02-2.57-1.82-4.59-1.82-3.75 0-6.68 3.02-6.68 6.77 0 3.75 2.93 6.77 6.68 6.77 2.43 0 3.81-.98 4.7-1.86.73-.73 1.2-1.77 1.38-3.2H9.44V8.47H18c.09.45.14 1 .14 1.59 0 1.91-.52 4.27-2.2 5.95-1.64 1.7-3.72 2.61-6.5 2.61z"
+                />
+                <path
+                  fill="#E94235"
+                  d="M31.38 12.62c0 3.45-2.65 5.99-5.91 5.99s-5.91-2.54-5.91-5.99c0-3.47 2.65-5.99 5.91-5.99s5.91 2.52 5.91 5.99zm-2.59 0c0-2.16-1.54-3.63-3.32-3.63s-3.32 1.48-3.32 3.63c0 2.13 1.54 3.63 3.32 3.63s3.32-1.49 3.32-3.63z"
+                />
+                <path
+                  fill="#FABB05"
+                  d="M44.62 12.62c0 3.45-2.65 5.99-5.91 5.99-3.25 0-5.91-2.54-5.91-5.99 0-3.47 2.65-5.99 5.91-5.99 3.26 0 5.91 2.52 5.91 5.99zm-2.58 0c0-2.16-1.54-3.63-3.32-3.63-1.78 0-3.32 1.48-3.32 3.63 0 2.13 1.54 3.63 3.32 3.63 1.78.01 3.32-1.49 3.32-3.63z"
+                />
+                <path
+                  fill="#4285F4"
+                  d="M57.54 6.99v10.76c0 4.43-2.61 6.24-5.7 6.24-2.91 0-4.65-1.95-5.31-3.54l2.29-.95c.41.98 1.41 2.13 3.02 2.13 1.98 0 3.2-1.23 3.2-3.52v-.86h-.09c-.59.73-1.73 1.36-3.16 1.36-3 0-5.74-2.61-5.74-5.97 0-3.38 2.75-6.02 5.74-6.02 1.43 0 2.57.64 3.16 1.34h.09v-.97h2.5zm-2.32 5.66c0-2.11-1.41-3.66-3.2-3.66-1.82 0-3.34 1.54-3.34 3.66 0 2.09 1.52 3.61 3.34 3.61 1.79 0 3.2-1.52 3.2-3.61z"
+                />
+                <path fill="#34A853" d="M62.15.64v17.62h-2.63V.64h2.63z" />
+                <path
+                  fill="#E94235"
+                  d="M72.51 14.6l2.04 1.36c-.66.98-2.25 2.66-5 2.66-3.41 0-5.86-2.63-5.86-5.99 0-3.56 2.48-5.99 5.57-5.99 3.11 0 4.63 2.47 5.13 3.81l.27.68-8.01 3.32c.61 1.2 1.57 1.82 2.91 1.82s2.27-.67 2.95-1.67zm-6.29-2.16l5.36-2.22c-.3-.75-1.18-1.27-2.23-1.27-1.34 0-3.2 1.18-3.13 3.49z"
+                />
+              </svg>
+            </span>
+          </div>
+          <div class="made__text2__links">
+            Flutter is Google’s UI toolkit for building beautiful, natively
+            compiled applications for
+            <a target="_blank" href="https://flutter.dev/docs">mobile</a>,
+            <a target="_blank" href="https://flutter.dev/web">web</a>, and
+            <a target="_blank" href="https://flutter.dev/desktop">desktop</a>
+            from a single codebase.
+          </div>
+          <div class="made__buttons_row">
+            <a
+              target="_blank"
+              href="https://flutter.dev/docs/get-started/install"
+              >Get started</a
+            >
+          </div>
+          <div class="made__coming__row">
+            <span>Coming from another platform? Docs:</span>
+            <a target="_blank" href="">iOS,</a>
+            <a target="_blank" href="">Andorid,</a>
+            <a target="_blank" href="">Web,</a>
+            <a target="_blank" href="">React Native,</a>
+            <a target="_blank" href="">Xamarin.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container style">
+        <div class="about__row">
+          <div class="about__column1">
+            <div class="about__svg1">
+              <svg
+                width="31"
+                height="20"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <path
+                    id="a"
+                    d="M.811 14.842l6.298-6.31L.81 2.22 2.75.281 11 8.531l-8.25 8.25z"
+                  />
+                </defs>
+                <g fill="#eff8ff" fill-rule="evenodd">
+                  <path
+                    d="M13.425 18h16.15"
+                    stroke="#1389FD"
+                    stroke-width="2.541"
+                    stroke-linecap="square"
+                  />
+                  <use fill="#1389FD" fill-rule="nonzero" xlink:href="#a" />
+                </g>
+              </svg>
+            </div>
+            <div class="about__title">Fast Development</div>
+            <div class="about__text">
+              Paint your app to life in milliseconds with Stateful Hot Reload.
+              Use a rich set of fully-customizable widgets to build native
+              interfaces in minutes.
+            </div>
+          </div>
+          <div class="about__column1">
+            <div class="about__svg1">
+              <svg width="35" height="35" xmlns="http://www.w3.org/2000/svg">
+                <g
+                  transform="translate(0 1)"
+                  stroke="#1389FD"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g transform="translate(0 3)">
+                    <circle cx="22.5" cy="11.5" r="11.5" />
+                    <rect x="1" y="10" width="19" height="20" rx="2" />
+                  </g>
+                  <circle cx="6" cy="3" r="3" />
+                </g>
+              </svg>
+            </div>
+            <div class="about__title">Expressive and Flexible UI</div>
+            <div class="about__text">
+              Quickly ship features with a focus on native end-user experiences.
+              Layered architecture allows for full customization, which results
+              in incredibly fast rendering and expressive and flexible designs.
+            </div>
+          </div>
+          <div class="about__column1">
+            <div class="about__svg1">
+              <svg width="40" height="28" xmlns="http://www.w3.org/2000/svg">
+                <g
+                  transform="matrix(0 -1 -1 0 40 28)"
+                  stroke="#1389FD"
+                  stroke-width="1.8"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <path d="M.9 20.9h12.2v18.2H.9z" />
+                  <rect x="7.9" y="10.9" width="12.2" height="18.2" rx="2.7" />
+                  <rect x="14.9" y=".9" width="12.2" height="18.2" rx="5.4" />
+                </g>
+              </svg>
+            </div>
+            <div class="about__title">Native Performance</div>
+            <div class="about__text">
+              Flutter’s widgets incorporate all critical platform differences
+              such as scrolling, navigation, icons and fonts, and your Flutter
+              code is compiled to native ARM machine code using
+              <a target="_blank" href="https://dart.dev/overview#platform"
+                >Dart's native compilers</a
+              >.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="show">
+      <div class="container style">
+        <div class="show__row">
+          <div class="show__video_parent">
+            <video
+              autoplay
+              src="https://flutter.dev/videos/FastDev.mp4"
+            ></video>
+          </div>
+          <div class="show__column">
+            <div class="show__svg">
+              <svg
+                width="31"
+                height="20"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <path
+                    id="a"
+                    d="M.811 14.842l6.298-6.31L.81 2.22 2.75.281 11 8.531l-8.25 8.25z"
+                  />
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                  <path
+                    d="M13.425 18h16.15"
+                    stroke="#1389FD"
+                    stroke-width="2.541"
+                    stroke-linecap="square"
+                  />
+                  <use fill="#1389FD" fill-rule="nonzero" xlink:href="#a" />
+                </g>
+              </svg>
+            </div>
+            <div class="show__title">
+              Fast <br />
+              development
+            </div>
+            <div class="show__text">
+              Flutter's hot reload helps you quickly and easily experiment,
+              build UIs, add features, and fix bugs faster. Experience
+              sub-second reload times without losing state on emulators,
+              simulators, and hardware.
+            </div>
+            <div class="show__link">
+              <a
+                target="_blank"
+                href="https://flutter.dev/docs/development/tools/hot-reload"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="expressive">
+      <div class="container style">
+        <div class="expressive__row">
+          <div class="expressive_description__colum1">
+            <span class="expressive_svg__parent">
+              <svg width="35" height="35" xmlns="http://www.w3.org/2000/svg">
+                <g
+                  transform="translate(0 1)"
+                  stroke="#1389FD"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g transform="translate(0 3)">
+                    <circle cx="22.5" cy="11.5" r="11.5" />
+                    <rect x="1" y="10" width="19" height="20" rx="2" />
+                  </g>
+                  <circle cx="6" cy="3" r="3" />
+                </g>
+              </svg>
+            </span>
+            <div class="expressive__title">Expressive, <br />beautiful UIs</div>
+            <div class="expressive__description">
+              Delight your users with Flutter's built-in beautiful Material
+              Design and Cupertino (iOS-flavor) widgets, rich motion APIs,
+              smooth natural scrolling, and platform awareness.
+            </div>
+            <a
+              target="_blank"
+              class="expressive__link"
+              href="https://flutter.dev/docs/development/ui/widgets"
+            >
+              Browse the widget catalog
+            </a>
+          </div>
+          <div class="video">
+            <video
+              src="https://flutter.dev/videos/Filters.mp4"
+              autoplay
+            ></video>
+            <div class="expressive_description__column2">
+              <div class="expressive__title2">Reflectly</div>
+              <div class="expressive__about2">
+                An award winning mindfulness app built with Flutter.
+              </div>
+              <div class="expressive__links2">
+                <span>Download</span>:
+                <a
+                  target="_blank"
+                  href="https://apps.apple.com/us/app/reflectly-mindfulness-journal/id1241229134"
+                  >iOS</a
+                >,
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.reflectlyApp&e=-EnableAppDetailsPageRedesign"
+                  >Android</a
+                ><br />
+                <a target="_blank" href="https://reflectly.app/">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flutterNative">
+      <div class="container style">
+        <div class="flutterNative__row">
+          <video
+            src="https://flutter.dev/videos/NativePerformance.mp4"
+            autoplay
+          ></video>
+          <div class="flutterNative_description__column">
+            <span class="flutterNative__svg">
+              <svg width="40" height="28" xmlns="http://www.w3.org/2000/svg">
+                <g
+                  transform="matrix(0 -1 -1 0 40 28)"
+                  stroke="#1389FD"
+                  stroke-width="1.8"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <path d="M.9 20.9h12.2v18.2H.9z" />
+                  <rect x="7.9" y="10.9" width="12.2" height="18.2" rx="2.7" />
+                  <rect x="14.9" y=".9" width="12.2" height="18.2" rx="5.4" />
+                </g>
+              </svg>
+            </span>
+            <div class="flutterNative__title">Native<br />Performance</div>
+            <div class="flutterNative__about">
+              Flutter’s widgets incorporate all critical platform differences
+              such as scrolling, navigation, icons and fonts to provide full
+              native performance on both iOS and Android.
+            </div>
+            <a
+              class="flutterNative__link0"
+              target="_blank"
+              href="https://flutter.dev/showcase"
+              >Examples of apps builts with Flutter</a
+            >
+            <div class="flutterNative__row2">
+              <span class="flutterNative__span2">Demo design inspired by</span>
+              <a
+                class="flutterNative__link1"
+                target="_blank"
+                href="https://dribbble.com/aureliensalomon"
+              >
+                Aurélien Salomon</a
+              ><span>'s</span>
+              <a
+                class="flutterNative__link2"
+                target="_blank"
+                href="https://dribbble.com/shots/2940231-Google-Newsstand-Navigation-Pattern"
+              >
+                Google Newsstand Navigation Pattern
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="learn">
+      <div class="container style">
+        <div class="learn_row">
+          <div class="learn__description">
+            <div class="learn__title">Learn from developers</div>
+            <div class="learn__about">
+              Watch these videos to learn from Google and developers as you
+              build with Flutter.
+            </div>
+            <span>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw"
+              >
+                Visit out Youtube playlist
+              </a>
+            </span>
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/W1pNjxmNHNQ"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="who">
+      <div class="container style">
+        <div class="who__row">
+          <div class="who__col1">
+            <p class="who__title">Who's using Flutter?</p>
+            <p class="who__subtitle">
+              Organizations around the world are building apps with Flutter.
+            </p>
+            <a target="_blank" href="https://flutter.dev/showcase"
+              >See what’s being created</a
+            >
+          </div>
+          <div class="who__col2">
+            <img class="who__img1" src="img/companies/google.png" alt="" />
+            <img class="who__img2" src="img/companies/ebay.png" alt="" />
+            <img class="who__img3" src="img/companies/alibaba.png" alt="" />
+            <img class="who__img4" src="img/companies/bmw.jpg" alt="" />
+            <img class="who__img5" src="img/companies/square.png" alt="" />
+            <img class="who__img6" src="img/companies/capital.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news">
+      <div class="container">
+        <div class="news__row">
+          <div class="news_col1 style">
+            <img class="news_img1" src="img/flutter2/news.png" alt="" />
+            <p class="news_subtitle">News</p>
+            <p class="news_title">Announcing Flutter 2</p>
+            <a
+              target="_blank"
+              href="https://developers.googleblog.com/2021/03/announcing-flutter-2.html"
+              >Read more</a
+            >
+          </div>
+          <div class="news_col2 style">
+            <img class="news_img1" src="img/flutter2/news1.png" alt="" />
+            <p class="news_subtitle">News</p>
+            <p class="news_title">Announcing stable web</p>
+            <a
+              target="_blank"
+              href="https://medium.com/flutter/flutter-web-support-hits-the-stable-milestone-d6b84e83b425"
+              >Read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="install">
+      <div class="container style">
+        <div class="install_col">
+          <p class="install_title">Install Flutter today.</p>
+          <p class="install_subtitle">It’s free and open source.</p>
+          <div class="made__buttons_row">
+            <a
+              target="_blank"
+              href="https://flutter.dev/docs/get-started/install"
+              >Get started</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__row">
+        <img src="img/flutter2/flutter_footer.png" alt="" />
+        <div class="footer__col">
+          <div class="footer__col__row1">
+            <li>
+              <a
+                target="_blank"
+                href="https://groups.google.com/forum/#!forum/flutter-dev"
+              >
+                flutter-dev@
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://flutter.dev/tos"> terms </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://flutter.dev/brand">
+                brand usage
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://flutter.dev/security">
+                security
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://policies.google.com/privacy?hl=en"
+              >
+                privacy
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://esflutter.dev/"> español </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://flutter.cn/"> 社区中文资源 </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://flutter-ko.dev/"> 한국어 </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://blog.google/inside-google/company-announcements/standing-with-black-community"
+              >
+                We stand in solidarity with the Black community. Black Lives
+                Matter.
+              </a>
+            </li>
+          </div>
+          <div class="footer__col__row2">
+            <div>
+              Except as otherwise noted, this work is licensed under a
+              <a href="https://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License</a
+              >, and code samples are licensed under the BSD License.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="leftBurgerBar" class="left-burger-bar">
+      <div class="left-burger-bar-column">
+        <img class="left-burger-bar-search-icon" src="img/search.webp" alt="">
+        <form action="https://flutter.dev/search?q=">
+          <input type="search" id="left-burger-bar-search-input" placeholder="Search">
+        </form>
+        <div class="left-burger-bar-input-div-parent">
+        </div>
+        <a href="https://flutter.dev/docs">Docs</a>
+        <a href="https://flutter.dev/showcase">Showcase</a>
+        <a href="https://flutter.dev/community">Community</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
